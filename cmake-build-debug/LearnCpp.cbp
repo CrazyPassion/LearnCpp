@@ -78,6 +78,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C3_3.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Ex3_12.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/classScope.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/main.cpp">
 			<Option target="LearnCpp"/>
 		</Unit>
