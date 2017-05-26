@@ -1,7 +1,21 @@
-#include "Ex3_14_15.hpp"
+#include <iostream>
+#include <vector>
+
+using std::vector;
+using std::string;
+
+using std::cin;
+using std::cout;
+using std::endl;
+
+int size()
+{
+    return -1;
+}
 
 int main(void)
 {
-    readData<int>;
+    int b[2];
+    int a[size()];
     return 0;
 }
