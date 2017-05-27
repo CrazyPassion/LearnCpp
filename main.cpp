@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "C3_6.hpp"
 
 using std::vector;
 using std::string;
@@ -8,14 +9,9 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int size()
-{
-    return -1;
-}
 
 int main(void)
 {
-    int b[2];
-    int a[size()];
+    TwoDimensionArr();
     return 0;
 }

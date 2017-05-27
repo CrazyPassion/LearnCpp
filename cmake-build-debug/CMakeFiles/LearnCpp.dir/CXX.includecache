@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/vonking/Documents/C++/code/LearnCpp/C3_6.hpp
+iostream
+-
+iterator
+-
+
 /Users/vonking/Documents/C++/code/LearnCpp/main.cpp
 iostream
 -
 vector
 -
+C3_6.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/C3_6.hpp
 
