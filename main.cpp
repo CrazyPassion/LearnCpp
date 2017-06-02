@@ -1,17 +1,10 @@
 #include <iostream>
 #include <vector>
-#include "C3_6.hpp"
-
-using std::vector;
-using std::string;
-
-using std::cin;
-using std::cout;
-using std::endl;
-
+#include "C4_7.hpp"
 
 int main(void)
 {
-    TwoDimensionArr();
+    bracketForConditionOperator();
+    Ex4_23();
     return 0;
 }
