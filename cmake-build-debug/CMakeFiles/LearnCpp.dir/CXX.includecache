@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/vonking/Documents/C++/code/LearnCpp/C4_7.hpp
-vector
--
+/Users/vonking/Documents/C++/code/LearnCpp/C4_8.hpp
 iostream
--
-string
 -
 
 /Users/vonking/Documents/C++/code/LearnCpp/main.cpp
 iostream
 -
-vector
--
-C4_7.hpp
-/Users/vonking/Documents/C++/code/LearnCpp/C4_7.hpp
+C4_8.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/C4_8.hpp
 

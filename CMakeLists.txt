@@ -3,5 +3,5 @@ project(LearnCpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Ex3_12.hpp C3_3.hpp classScope.hpp C3_4.hpp C3_6.hpp Ex4_20.hpp C4_7.hpp)
+set(SOURCE_FILES main.cpp Ex3_12.hpp C3_3.hpp classScope.hpp C3_4.hpp C3_6.hpp Ex4_20.hpp C4_7.hpp C4_8.hpp)
 add_executable(LearnCpp ${SOURCE_FILES})
