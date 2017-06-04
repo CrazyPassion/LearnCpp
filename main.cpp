@@ -3,17 +3,12 @@
 int main(void)
 {
     int cnt =5;
-    int arr[5];
-    for (int i = 0; i < 5; ++i,--cnt)
+    switch (cnt)
     {
-        arr[i] = cnt;
-        cout <<arr[i]<<endl;
-    }
-    cnt = 5;
-    for (int i = 0; i < 5; i++,cnt--)
-    {
-        arr[i] = cnt;
-        cout <<arr[i]<<endl;
+        case 5:
+            cout<<"odd"<<endl;
+        case 4:
+            cout<<"even"<<endl;
     }
     return 0;
 }
