@@ -1,15 +1,19 @@
 #include <iostream>
-#include "C4_8.hpp"
+#include "C6_2.hpp"
+using std::cout;
+using std::endl;
+
+int f(int i)
+{
+    if (i > 1)
+        return f(--i)*i;
+    return  1;
+}
 int main(void)
 {
-    int cnt =5;
-    switch (cnt)
-    {
-        case 5:
-            cout<<"odd"<<endl;
-        case 4:
-            cout<<"even"<<endl;
-    }
+    cout<<f(5)<<endl;
+    int res = f(5);
+    cout<<res<<endl;
     return 0;
 }
 
