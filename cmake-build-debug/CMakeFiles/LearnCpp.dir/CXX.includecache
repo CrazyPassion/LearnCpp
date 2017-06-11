@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/vonking/Documents/C++/code/LearnCpp/C6_2.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/C6_6.hpp
+iostream
+-
+string
+-
 
 /Users/vonking/Documents/C++/code/LearnCpp/main.cpp
 iostream
 -
-C6_2.hpp
-/Users/vonking/Documents/C++/code/LearnCpp/C6_2.hpp
+C6_6.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/C6_6.hpp
 

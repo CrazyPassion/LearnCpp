@@ -1,19 +1,12 @@
 #include <iostream>
-#include "C6_2.hpp"
-using std::cout;
-using std::endl;
+#include "Include/C6_6.hpp"
 
-int f(int i)
+int main()
 {
-    if (i > 1)
-        return f(--i)*i;
-    return  1;
-}
-int main(void)
-{
-    cout<<f(5)<<endl;
-    int res = f(5);
-    cout<<res<<endl;
+    FUNC &f=isShorterString;
+    cout<<f("sss","ww")<<endl;
+
+    FUNCP pf=isShorterString;
+    cout<<pf("sss","ww")<<endl;
     return 0;
 }
-

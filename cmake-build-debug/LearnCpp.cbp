@@ -78,34 +78,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C3_3.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C3_3.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C3_4.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C3_4.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C3_6.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C3_6.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C4_7.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C4_7.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C4_8.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C4_8.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C5_4.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C5_4.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/C6_2.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C6_2.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Ex3_12.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C6_3.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Ex4_20.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C6_5.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/classScope.hpp">
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/C6_6.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Ex3_12.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Ex4_20.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.cpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/classScope.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/main.cpp">
