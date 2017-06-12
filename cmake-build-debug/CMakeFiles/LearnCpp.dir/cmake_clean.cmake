@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LearnCpp.dir/main.cpp.o"
-  "CMakeFiles/LearnCpp.dir/Include/Sales_data.cpp.o"
+  "CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.o"
   "LearnCpp.pdb"
   "LearnCpp"
 )

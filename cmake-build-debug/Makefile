@@ -123,32 +123,32 @@ LearnCpp/fast:
 	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/build
 .PHONY : LearnCpp/fast
 
-Include/Sales_data.o: Include/Sales_data.cpp.o
+Source/Sales_data.o: Source/Sales_data.cpp.o
 
-.PHONY : Include/Sales_data.o
+.PHONY : Source/Sales_data.o
 
 # target to build an object file
-Include/Sales_data.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Include/Sales_data.cpp.o
-.PHONY : Include/Sales_data.cpp.o
+Source/Sales_data.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.o
+.PHONY : Source/Sales_data.cpp.o
 
-Include/Sales_data.i: Include/Sales_data.cpp.i
+Source/Sales_data.i: Source/Sales_data.cpp.i
 
-.PHONY : Include/Sales_data.i
+.PHONY : Source/Sales_data.i
 
 # target to preprocess a source file
-Include/Sales_data.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Include/Sales_data.cpp.i
-.PHONY : Include/Sales_data.cpp.i
+Source/Sales_data.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.i
+.PHONY : Source/Sales_data.cpp.i
 
-Include/Sales_data.s: Include/Sales_data.cpp.s
+Source/Sales_data.s: Source/Sales_data.cpp.s
 
-.PHONY : Include/Sales_data.s
+.PHONY : Source/Sales_data.s
 
 # target to generate assembly for a file
-Include/Sales_data.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Include/Sales_data.cpp.s
-.PHONY : Include/Sales_data.cpp.s
+Source/Sales_data.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.s
+.PHONY : Source/Sales_data.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LearnCpp"
-	@echo "... Include/Sales_data.o"
-	@echo "... Include/Sales_data.i"
-	@echo "... Include/Sales_data.s"
+	@echo "... Source/Sales_data.o"
+	@echo "... Source/Sales_data.i"
+	@echo "... Source/Sales_data.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

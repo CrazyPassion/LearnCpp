@@ -1,12 +1,29 @@
 #include <iostream>
-#include "Include/C6_6.hpp"
+#include "Include/Sales_data.hpp"
+
+using std::cin; using std::cout; using std::endl;
 
 int main()
 {
-    FUNC &f=isShorterString;
-    cout<<f("sss","ww")<<endl;
+    Sales_data total;
+    if (cin >> total.bookNo >> total.units_sold >> total.revenue)
+    {
+        Sales_data trans;
+        while (cin >> trans.bookNo >> trans.units_sold >> trans.revenue) {
+            if (total.isbn() == trans.isbn())
+                total.combine(trans);
+            else {
+                cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
+                total = trans;
+            }
+        }
+        cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
+    }
+    else
+    {
+        std::cerr << "No data?!" << std::endl;
+        return -1;
+    }
 
-    FUNCP pf=isShorterString;
-    cout<<pf("sss","ww")<<endl;
     return 0;
 }

@@ -1,20 +1,14 @@
 #pragma once
 #include <iostream>
 #include <string>
-using std::string;
 
-class Sales_data
-{
-public:
-    Sales_data();
-    virtual ~Sales_data();
-    string GetIsbn(Sales_data &data);
-    Sales_data &combine(Sales_data &data);
-    Sales_data &add(Sales_data &data1, Sales_data &data2);
-    void print(const Sales_data &data);
+struct Sales_data {
+    std::string isbn() const { return bookNo; };
+    Sales_data& combine(const Sales_data&);
 
-private:
-    string booNO;
-    unsigned int unit_sold;
-    double revenue;
+    std::string bookNo;
+    unsigned units_sold = 0;
+    double revenue = 0.0;
 };
+
+

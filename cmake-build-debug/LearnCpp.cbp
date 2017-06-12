@@ -114,13 +114,13 @@
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Ex4_20.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
-		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.cpp">
-			<Option target="LearnCpp"/>
-		</Unit>
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.hpp">
 			<Option target="LearnCpp"/>
 		</Unit>
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Include/classScope.hpp">
+			<Option target="LearnCpp"/>
+		</Unit>
+		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/Source/Sales_data.cpp">
 			<Option target="LearnCpp"/>
 		</Unit>
 		<Unit filename="/Users/vonking/Documents/C++/code/LearnCpp/main.cpp">
