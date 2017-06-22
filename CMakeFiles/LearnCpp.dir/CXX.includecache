@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Person.hpp
+string
+-
+
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.hpp
+iostream
+-
+string
+-
+
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Screen1.hpp
+vector
+-
+string
+-
+iostream
+-
+
+/Users/vonking/Documents/C++/code/LearnCpp/Source/Person.cpp
+../Include/Person.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Person.hpp
+
+/Users/vonking/Documents/C++/code/LearnCpp/Source/Sales_data.cpp
+../Include/Sales_data.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.hpp
+
+/Users/vonking/Documents/C++/code/LearnCpp/Source/Screen1.cpp
+../Include/Screen1.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Screen1.hpp
+
+/Users/vonking/Documents/C++/code/LearnCpp/main.cpp
+iostream
+-
+Include/Sales_data.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Sales_data.hpp
+Include/Screen1.hpp
+/Users/vonking/Documents/C++/code/LearnCpp/Include/Screen1.hpp
+

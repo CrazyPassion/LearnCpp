@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vonking/Documents/C++/code/LearnCpp/Source/Person.cpp" "/Users/vonking/Documents/C++/code/LearnCpp/CMakeFiles/LearnCpp.dir/Source/Person.cpp.o"
   "/Users/vonking/Documents/C++/code/LearnCpp/Source/Sales_data.cpp" "/Users/vonking/Documents/C++/code/LearnCpp/CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.o"
+  "/Users/vonking/Documents/C++/code/LearnCpp/Source/Screen1.cpp" "/Users/vonking/Documents/C++/code/LearnCpp/CMakeFiles/LearnCpp.dir/Source/Screen1.cpp.o"
   "/Users/vonking/Documents/C++/code/LearnCpp/main.cpp" "/Users/vonking/Documents/C++/code/LearnCpp/CMakeFiles/LearnCpp.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

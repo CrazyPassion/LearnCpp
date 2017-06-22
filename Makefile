@@ -177,6 +177,33 @@ Source/Sales_data.cpp.s:
 	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Sales_data.cpp.s
 .PHONY : Source/Sales_data.cpp.s
 
+Source/Screen1.o: Source/Screen1.cpp.o
+
+.PHONY : Source/Screen1.o
+
+# target to build an object file
+Source/Screen1.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Screen1.cpp.o
+.PHONY : Source/Screen1.cpp.o
+
+Source/Screen1.i: Source/Screen1.cpp.i
+
+.PHONY : Source/Screen1.i
+
+# target to preprocess a source file
+Source/Screen1.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Screen1.cpp.i
+.PHONY : Source/Screen1.cpp.i
+
+Source/Screen1.s: Source/Screen1.cpp.s
+
+.PHONY : Source/Screen1.s
+
+# target to generate assembly for a file
+Source/Screen1.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCpp.dir/build.make CMakeFiles/LearnCpp.dir/Source/Screen1.cpp.s
+.PHONY : Source/Screen1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Source/Sales_data.o"
 	@echo "... Source/Sales_data.i"
 	@echo "... Source/Sales_data.s"
+	@echo "... Source/Screen1.o"
+	@echo "... Source/Screen1.i"
+	@echo "... Source/Screen1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

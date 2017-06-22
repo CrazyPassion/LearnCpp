@@ -13,3 +13,7 @@ std::string const &Person::get_addr()
 {
     return address;
 }
+
+Person::Person(const std::string &name) : name(name)
+{
+}
