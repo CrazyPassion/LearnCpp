@@ -6,5 +6,5 @@ using std::cin; using std::cout; using std::endl;
 
 int main()
 {
-    Screen1::Ex_7_27();
+    Sales_data::Ex7_7();
 }
