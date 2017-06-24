@@ -1,10 +1,12 @@
 #include <iostream>
-#include "Include/Sales_data.hpp"
-#include "Include/Screen1.hpp"
+#include "Include/Struct.hpp"
+
 
 using std::cin; using std::cout; using std::endl;
 
 int main()
 {
-    Sales_data::Ex7_7();
+    Test A;
+    A.init();
+    cout<<A.a<<" "<<A.b<<endl;
 }
