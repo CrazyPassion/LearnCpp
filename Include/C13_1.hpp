@@ -5,6 +5,11 @@
 #pragma once 
 
 #include <string>
+#include <iostream>
+#include <vector>
+
+using std::cout;
+using std::endl;
 
 class HasPtr {
 public:
@@ -33,8 +38,9 @@ struct X {
     ~X() { std::cout << "~X()" << std::endl; }
 };
 
-void f(const X &rx, X x)
+void f(const X &rx, X x)//rx no copy-constructor x have
 {
+    std::cout<<"f p1"<<endl;
     std::vector<X> vec;
     vec.reserve(2);
     vec.push_back(rx);
@@ -44,6 +50,45 @@ void f(const X &rx, X x)
 void Ex13_13()
 {
     X *px = new X;
+    std::cout<<"p1"<<endl;
     f(*px, *px);
     delete px;
+}
+
+
+class numbered {
+public:
+    numbered() {
+        std::cout << "numbered()" << std::endl;
+        mysn = unique++;
+    }
+
+    numbered(const numbered& n) {
+        std::cout << "numbered(const numbered&)" << std::endl;
+        mysn = unique++;
+    }
+//    numbered(numbered &r);//copy constructor must pass its first argument by reference
+    int mysn;
+    static int unique;
+};
+
+int numbered::unique = 10;
+
+
+void f(const numbered &s)
+{
+    std::cout << s.mysn << std::endl;
+}
+void Ex13_14()
+{
+    //just s in f, the res is 13,14,15, if rerference of s in f(), the res is 10,11,12
+    numbered a;
+    std::cout << "p1" << std::endl;
+    numbered b = a;
+    std::cout << "p2" << std::endl;
+    numbered c = b;
+    std::cout << "p3" << std::endl;
+    f(a);
+    f(b);
+    f(c);
 }
