@@ -1,16 +1,30 @@
-#include <iostream>
-#include <vector>
-#include <deque>
-#include <list>
-#include "Include/C9_3.hpp"
 
-using std::vector;
-using std::deque;
-using std::list;
-using std::cin; using std::cout; using std::endl;
+#include <iostream>
+
+class numbered {
+public:
+    numbered() {
+        mysn = unique++;
+    }
+
+    numbered(const numbered& n) {
+        mysn = unique++;
+    }
+
+    int mysn;
+    static int unique;
+};
+
+int numbered::unique = 10;
+
+void f(const numbered& s) {
+    std::cout << s.mysn << std::endl;
+}
 
 int main()
 {
-    Ex9_34();
-    return 0;
+    numbered a, b = a, c = b;
+    f(a);
+    f(b);
+    f(c);
 }

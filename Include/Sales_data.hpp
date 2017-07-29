@@ -7,7 +7,8 @@ struct Sales_data {
     Sales_data(const std::string &s):bookNo(s) { }
     Sales_data(const std::string &s, unsigned n, double p=0.0):bookNo(s), units_sold(n), revenue(n*p){ }
     Sales_data(std::istream &is);
-
+    Sales_data(const Sales_data &rhs){this->bookNo=rhs.bookNo;this->units_sold=rhs.units_sold;this->revenue=rhs.revenue;}
+    //copy constructor must pass its first argument by const reference
     std::string isbn() const { return bookNo; };
     Sales_data& combine(const Sales_data&);
     Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
