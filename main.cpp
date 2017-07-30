@@ -11,7 +11,7 @@ int main()
     cout<<i<<endl;
     if (--*pi == 0)
     {
-        cout<<"--pi"<<i<<endl;
+        cout<<"--pi "<<i<<endl;
     }
     cout<<"after"<<i<<endl;
     return 0;
